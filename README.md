@@ -1,4 +1,4 @@
-# MIStagesDIY
+# MI Stages DIY
 
 A guide to the firmware flashing and calibration process for DIY builds of Mutable Instruments Stages,
 designed by Émilie Gillet. Also includes panel design PSD and gerber files.
