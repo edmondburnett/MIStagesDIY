@@ -33,9 +33,8 @@ the process clearer and remove some of the guesswork.
 - Optionally: Something to view the Stages.brd file (supplied [here](https://github.com/pichenettes/eurorack/tree/master/stages/hardware_design/pcb)), 
   if needed for PCB troubleshooting. Autodesk Eagle, or Fusion 360 (it's new highly-bloated cloud subscription replacement, ew). 
   There may an open-source alternative, but as of this writing I couldn't actually get brd the file to load or import in any of the ones I tried.
-- Patience and some problem solving skills. The later MI modules were really not designed for personal DIY work, 
-  perhaps in part due to the sizeable third-party industry that popped up, copying and reselling
-  Émilie's designs with a for-profit motive. These builds can either go smoothly, or be a multi-day troubleshooting project if 
+- Patience and some problem solving skills. Unlike earlier designs, the later MI modules were really not designed for personal/casual DIY work.
+  These builds can either go smoothly, or be a multi-day troubleshooting project if 
   one microscopic 0402 resistor has an invisible cold joint or something, which can go unnoticed until you start trying
   to calibrate things and you get some unexpected voltages.
 
