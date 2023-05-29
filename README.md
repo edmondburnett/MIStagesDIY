@@ -18,7 +18,7 @@ the exact details of how to go about this are lacking. Thus the creation of this
 - [Stages Open Source
   docs](https://pichenettes.github.io/mutable-instruments-documentation/modules/stages/open_source/#)
 - [Stages Manual](https://pichenettes.github.io/mutable-instruments-documentation/modules/stages/)
-- [Stages code, hardware design, and build BOMs](https://github.com/pichenettes/eurorack/tree/master/stages)
+- [Stages code, hardware & panel design, and build BOMs](https://github.com/pichenettes/eurorack/tree/master/stages)
 
 
 ## What you'll need
