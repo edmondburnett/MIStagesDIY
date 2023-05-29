@@ -71,7 +71,7 @@ $ vagrant up
 ```
 
 
-### Initial calibation edits
+### Initial calibration edits
 
 Clone the MIStagesDIY repo, and open up `settings.cc`. 
 
