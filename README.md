@@ -15,7 +15,7 @@ the process clearer and remove some of the guesswork.
 - [Stages Open Source
   docs](https://pichenettes.github.io/mutable-instruments-documentation/modules/stages/open_source/#)
 - [Stages Manual](https://pichenettes.github.io/mutable-instruments-documentation/modules/stages/)
-- [MI Eurorack module code, hardware designs, and build BOMs](https://github.com/pichenettes/eurorack)
+- [Stages code, hardware design, and build BOMs](https://github.com/pichenettes/eurorack/tree/master/stages)
 
 
 ## What you'll need
