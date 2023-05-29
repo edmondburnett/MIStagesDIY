@@ -6,7 +6,7 @@ designed by Émilie Gillet. Also includes panel design PSD and gerber files.
 ![2x MI stages](stages.jpg)
 
 Forked from [forestcaver/MIStagesStuff](https://github.com/forestcaver/MIStagesStuff) and updated with code fixes and 
-improved/expanded instructions. The goal was to fill in the details from my own experience with building sevarl of these, to make 
+improved/expanded instructions. The goal was to fill in the details from my own experience with building several of these, to make 
 the process clearer and remove some of the guesswork.
 
 
