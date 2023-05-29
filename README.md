@@ -5,12 +5,12 @@ designed by Émilie Gillet.
 
 ![2x MI stages](stages.jpg)
 
+While there is some minimal mention of the calibration process in the [official open-source docs](https://pichenettes.github.io/mutable-instruments-documentation/modules/stages/open_source/#calibration),
+the exact details of how to go about this are lacking. Thus the creation of this guide.
+
 Originally forked from [forestcaver/MIStagesStuff](https://github.com/forestcaver/MIStagesStuff) and updated with code fixes and 
 improved/expanded instructions. The goal was to fill in the details from my own experience with building several of these, to make 
 the process clearer and remove some of the guesswork.
-
-While there is some mention of the calibration process in the [official open-source docs](https://pichenettes.github.io/mutable-instruments-documentation/modules/stages/open_source/#calibration),
-the exact details of how to go about this are lacking. Thus the creation of this guide.
 
 
 ## Useful Links
