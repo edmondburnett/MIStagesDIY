@@ -182,7 +182,7 @@ Apply +2V to each of the Time/Level inputs, and record the measurements again, f
 Back to the `settings.cc` file, update each of the ADC values with the `scale` and `offset` from the spreadsheet, like
 we did earlier for DAC.
 
-Go to `factory_test.cc` again and disable the ADC calibration mode by switching the `#if 1` back to `#if 0'.
+Go to `factory_test.cc` again and disable the ADC calibration mode by switching the `#if 1` back to `#if 0`.
 
 Build and flash the firmware again: 
 
