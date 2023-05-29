@@ -36,9 +36,9 @@ the process clearer and remove some of the guesswork.
 - Patience and some problem solving skills. Unlike earlier designs, the later MI modules were really not designed to be beginner-friendly for 
   personal/casual DIY work. These builds can either go smoothly, or be a multi-day troubleshooting project if 
   one microscopic 0402 resistor has an invisible cold joint or something, which can go unnoticed until you start trying
-  to calibrate things and you get some unexpected voltages. The calibration process here is also a bit of a hack, and
-  not an officially-supported method as would done in the factory with a special-purpose testing and calibration
-  harness.
+  to calibrate things and you get some unexpected voltages. The calibration process here is also just a bit of a hack, as
+  there is no officially-supported documented method. In the factory this would be done with a special-purpose testing 
+  and calibration harness.
 
 
 ## Firmware and Calibration Steps
