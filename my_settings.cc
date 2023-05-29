@@ -60,33 +60,45 @@ bool Settings::Init() {
   fill(&state_.segment_configuration[0],
        &state_.segment_configuration[kNumChannels], 0);
 
-#if 0
-  // Defaults
-  persistent_data_.channel_calibration_data[0].dac_offset = 32768.0f;
-  persistent_data_.channel_calibration_data[0].dac_scale = -32263.0f;
-  persistent_data_.channel_calibration_data[1].dac_offset = 32768.0f;
-  persistent_data_.channel_calibration_data[1].dac_scale = -32263.0f;
-  persistent_data_.channel_calibration_data[2].dac_offset = 32768.0f;
-  persistent_data_.channel_calibration_data[2].dac_scale = -32263.0f;
-  persistent_data_.channel_calibration_data[3].dac_offset = 32768.0f;
-  persistent_data_.channel_calibration_data[3].dac_scale = -32263.0f;
-  persistent_data_.channel_calibration_data[4].dac_offset = 32768.0f;
-  persistent_data_.channel_calibration_data[4].dac_scale = -32263.0f;
-  persistent_data_.channel_calibration_data[5].dac_offset = 32768.0f;
-  persistent_data_.channel_calibration_data[5].dac_scale = -32263.0f;
+#if 1
+  // Edmond's settings for the second build (purple PCB)
+  persistent_data_.channel_calibration_data[0].dac_offset = 32688.0324252f;
+  persistent_data_.channel_calibration_data[0].dac_scale = -32208.2337488f;
+  persistent_data_.channel_calibration_data[1].dac_offset = 32726.6554891f;
+  persistent_data_.channel_calibration_data[1].dac_scale = -32375.8494517f;
+  persistent_data_.channel_calibration_data[2].dac_offset = 32660.6127607f;
+  persistent_data_.channel_calibration_data[2].dac_scale = -32182.3988848f;
+  persistent_data_.channel_calibration_data[3].dac_offset = 32286.7643120f;
+  persistent_data_.channel_calibration_data[3].dac_scale = -28031.4175080f;
+  persistent_data_.channel_calibration_data[4].dac_offset = 32738.4726037f;
+  persistent_data_.channel_calibration_data[4].dac_scale = -32141.3443058f;
+  persistent_data_.channel_calibration_data[5].dac_offset = 32708.1772108f;
+  persistent_data_.channel_calibration_data[5].dac_scale = -32205.39910904f;
 
-  persistent_data_.channel_calibration_data[0].adc_offset = 0.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[0].adc_scale = -1.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[1].adc_offset = 0.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[1].adc_scale = -1.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[2].adc_offset = 0.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[2].adc_scale = -1.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[3].adc_offset = 0.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[3].adc_scale = -1.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[4].adc_offset = 0.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[4].adc_scale = -1.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[5].adc_offset = 0.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[5].adc_scale = -1.0f /* FIXME */;
+  persistent_data_.channel_calibration_data[0].adc_offset =
+      0.04197841f /* FIXME */;
+  persistent_data_.channel_calibration_data[0].adc_scale =
+      -0.99318016f /* FIXME */;
+  persistent_data_.channel_calibration_data[1].adc_offset =
+      0.04287711f /* FIXME */;
+  persistent_data_.channel_calibration_data[1].adc_scale =
+      -0.99262151f /* FIXME */;
+  persistent_data_.channel_calibration_data[2].adc_offset =
+      0.04866396f /* FIXME */;
+  persistent_data_.channel_calibration_data[2].adc_scale =
+      -0.99272005f /* FIXME */;
+  persistent_data_.channel_calibration_data[3].adc_offset =
+      0.04803432f /* FIXME */;
+  persistent_data_.channel_calibration_data[3].adc_scale =
+      -0.98005906f /* FIXME */;
+  persistent_data_.channel_calibration_data[4].adc_offset =
+      0.04541499f /* FIXME */;
+  persistent_data_.channel_calibration_data[4].adc_scale =
+      -0.99439822f /* FIXME */;
+  persistent_data_.channel_calibration_data[5].adc_offset =
+      0.04106699f /* FIXME */;
+  persistent_data_.channel_calibration_data[5].adc_scale =
+      -0.99255583f /* FIXME */;
 #endif
 
   state_.color_blind = 0;
