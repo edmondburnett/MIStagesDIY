@@ -110,8 +110,8 @@ From the `eurorack-modules` directory, build the bootloader running:
 $ make -f stages/bootloader/makefile hex
 ```
 
-MI is now shut down and no longer maintaining this code, so some drift from it's dependencies is expected. If you get a 
-compiler error about the decoder Init() being passed too many values, copy the supplied bootloader.cc file to 
+Since Mutable Instruments is now shut down and no longer maintaining this code, some drift from it's dependencies is expected. If you get a 
+compiler error regarding the STM library's decoder Init() being passed too many values, copy the supplied bootloader.cc file to 
 `eurorack-modules/stages/bootloader/boatloader.cc` and recompile.
 
 Build and upload the firmware: 
