@@ -1,11 +1,11 @@
 # MI Stages DIY
 
 A guide to the firmware flashing and calibration process for DIY builds of Mutable Instruments Stages,
-designed by Émilie Gillet. Also includes panel design PSD and gerber files.
+designed by Émilie Gillet.
 
 ![2x MI stages](stages.jpg)
 
-Forked from [forestcaver/MIStagesStuff](https://github.com/forestcaver/MIStagesStuff) and updated with code fixes and 
+Originally forked from [forestcaver/MIStagesStuff](https://github.com/forestcaver/MIStagesStuff) and updated with code fixes and 
 improved/expanded instructions. The goal was to fill in the details from my own experience with building several of these, to make 
 the process clearer and remove some of the guesswork.
 
