@@ -15,6 +15,7 @@ the process clearer and remove some of the guesswork.
 - [Stages Open Source
   docs](https://pichenettes.github.io/mutable-instruments-documentation/modules/stages/open_source/#)
 - [Stages Manual](https://pichenettes.github.io/mutable-instruments-documentation/modules/stages/)
+- [MI Eurorack module code and build BOMs](https://github.com/pichenettes/eurorack)
 
 
 ## What you'll need
@@ -29,9 +30,9 @@ the process clearer and remove some of the guesswork.
 - Some jumper wires.
 - A eurorack power supply and cable.
 - A eurorack/mono 3.5mm cable.
-- Optionally: Something to view the Stages.brd file if needed for PCB troubleshooting. Autodesk Eagle, or Fusion 360, it's new highly-
-  bloated cloud-subscription replacement (ew). There may an open-source alternative, but I couldn't actually get the file to
-  load or import in any of the ones I tried.
+- Optionally: Something to view the Stages.brd file (supplied [here](https://github.com/pichenettes/eurorack/tree/master/stages/hardware_design/pcb)), 
+  if needed for PCB troubleshooting. Autodesk Eagle, or Fusion 360 (it's new highly-bloated cloud subscription replacement, ew). 
+  There may an open-source alternative, but as of this writing I couldn't actually get brd the file to load or import in any of the ones I tried.
 - Patience and some problem solving skills. The later MI modules were really not designed for personal DIY work, 
   perhaps in part due to the sizeable third-party industry that popped up, straight up copying and reselling
   Émilie's designs with a for-profit motive. These builds can either go smoothly, or be a multi-day troubleshooting project if 
