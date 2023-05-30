@@ -187,7 +187,7 @@ and Crime module in it's References mode for this purpose.
 Apply +2V to each of the Time/Level inputs, and record the measurements again, for the ADC 2V column.
 
 Back to the `settings.cc` file, update each of the ADC values with the `scale` and `offset` from the spreadsheet, like
-we did earlier for DAC. For example:
+we did earlier for DAC. For example, for the first output:
 
 ```cpp
 persistent_data_.channel_calibration_data[0].adc_offset = 0.04197841f;
