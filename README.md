@@ -110,7 +110,7 @@ $ lsusb
 If it's not listed, you may need to check your Virtualbox settings for the vagrant environment. Check the Ports 
 tab and make sure USB Controller is enabled, and the programmer is listed and enabled under the USB device filters.
 
-From the `eurorack-modules` directory, build the bootloader running: 
+From the `eurorack-modules` directory, build the bootloader by running: 
 
 ```console
 $ make -f stages/bootloader/makefile hex
