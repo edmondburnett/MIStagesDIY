@@ -80,14 +80,14 @@ $ vagrant up
 Clone the MIStagesDIY repo, and open up `settings.cc`. 
 
 Look for the `#if 0` line that is commented with `Defaults`. These are some default starting values for the initial 
-firmware flash. We'll copy and populate each of these values with our actual calibration data. For now, let's apply 
+firmware flash. We'll later populate each of these values with our actual calibration data. For now, let's just apply 
 the defaults by changing the `#if 0` to `#if 1`, to enable the code block.
 
 Copy settings.cc to the vagrant environment, replacing the original file located at `eurorack-modules/stages/settings.cc` 
 with this one.
 
 Now edit `factory_test.cc`. Look for the line with the comment that says `DAC Calibration`. Enable this by changing
-`#if 0` to `#if 1`. Ignore the `ADC Calibration` section for now and leave it disabled. Copy this to 
+`#if 0` to `#if 1`. Ignore the `ADC Calibration` section below it for now, and leave it disabled. Copy this file to 
 `eurorack-modules/stages/factory_test.cc`, again overwriting the original.
 
 
