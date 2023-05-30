@@ -29,7 +29,7 @@ the process clearer and remove some of the guesswork.
   `Extech MultiMaster MM560A`. If you don't have one, maybe you can rent or borrow something similar, or visit an
   electronics DIY workshop/meetup and ask to use one there.
 - Something that can output precision voltages. I used an Ornament and Crime (o_C) module in References mode. Other modules
-  may be able to do the same, such as a precision adder, Disting EX, or anything that can create a precise offset between -1V 
+  may be able to do the same, such as a precision adder, Disting EX, or anything that can create stable voltage offsets of -1V
   and +2V. Or use some proper bench test equipment.
 - A firmware programmer of some kind. I used the `STM32F051` Discovery board as recommended by Émilie. Some have used 
   a STLinkV2 successfully, others report issues with these with the newer MI stuff (Tides v2, Stages etc).
