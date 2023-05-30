@@ -61,7 +61,7 @@ bool Settings::Init() {
        &state_.segment_configuration[kNumChannels], 0);
 
 #if 0
-  // Defaults
+  // Defaults (DAC)
   persistent_data_.channel_calibration_data[0].dac_offset = 32768.0f;
   persistent_data_.channel_calibration_data[0].dac_scale = -32263.0f;
   persistent_data_.channel_calibration_data[1].dac_offset = 32768.0f;
@@ -75,18 +75,19 @@ bool Settings::Init() {
   persistent_data_.channel_calibration_data[5].dac_offset = 32768.0f;
   persistent_data_.channel_calibration_data[5].dac_scale = -32263.0f;
 
-  persistent_data_.channel_calibration_data[0].adc_offset = 0.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[0].adc_scale = -1.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[1].adc_offset = 0.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[1].adc_scale = -1.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[2].adc_offset = 0.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[2].adc_scale = -1.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[3].adc_offset = 0.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[3].adc_scale = -1.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[4].adc_offset = 0.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[4].adc_scale = -1.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[5].adc_offset = 0.0f /* FIXME */;
-  persistent_data_.channel_calibration_data[5].adc_scale = -1.0f /* FIXME */;
+  // Defaults (ADC)
+  persistent_data_.channel_calibration_data[0].adc_offset = 0.0f;
+  persistent_data_.channel_calibration_data[0].adc_scale = -1.0f;
+  persistent_data_.channel_calibration_data[1].adc_offset = 0.0f;
+  persistent_data_.channel_calibration_data[1].adc_scale = -1.0f;
+  persistent_data_.channel_calibration_data[2].adc_offset = 0.0f;
+  persistent_data_.channel_calibration_data[2].adc_scale = -1.0f;
+  persistent_data_.channel_calibration_data[3].adc_offset = 0.0f;
+  persistent_data_.channel_calibration_data[3].adc_scale = -1.0f;
+  persistent_data_.channel_calibration_data[4].adc_offset = 0.0f;
+  persistent_data_.channel_calibration_data[4].adc_scale = -1.0f;
+  persistent_data_.channel_calibration_data[5].adc_offset = 0.0f;
+  persistent_data_.channel_calibration_data[5].adc_scale = -1.0f;
 #endif
 
   state_.color_blind = 0;
