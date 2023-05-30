@@ -79,7 +79,7 @@ $ vagrant up
 
 Clone the MIStagesDIY repo, and open up `settings.cc`. 
 
-Look for the `#if 0` line that is commented with `Defaults`. These are some default starting values for the initial 
+Look for the `#if 0` line that is commented with `Defaults (DAC)`. These are some default starting values for the initial 
 firmware flash. We'll later populate each of these values with our actual calibration data. For now, let's just apply 
 the defaults by changing the `#if 0` to `#if 1`, to enable the code block.
 
