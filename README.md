@@ -120,7 +120,7 @@ Since Mutable Instruments is now shut down and no longer maintaining this code, 
 compiler error regarding the STM library's decoder Init() being passed too many values, copy the supplied bootloader.cc file to 
 `eurorack-modules/stages/bootloader/boatloader.cc` and recompile.
 
-Build and flash the firmware (note that upload also erases any present firmware): 
+Build and flash the firmware (note that `upload` also erases any present firmware): 
 
 ```console
 $ make -f stages/makefile upload
