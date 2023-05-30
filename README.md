@@ -78,7 +78,13 @@ $ vagrant up
 
 ### Initial calibration edits
 
-Clone the MIStagesDIY repo, and open up `settings.cc`. 
+Clone the MIStagesDIY repo: 
+
+```console
+$ git clone git@github.com:edmondburnett/MIStagesDIY.git
+```
+
+Open up `settings.cc`. 
 
 Look for the `#if 0` line that is below the comment `// Defaults`. These are some default starting values for the initial 
 firmware flash. We'll later populate each of these values with our actual calibration data. For now, let's just apply 
