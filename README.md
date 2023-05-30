@@ -149,9 +149,16 @@ paste it underneath. In the original one, change `#if 1` back to `if 0` to disab
 enable only our custom offset/scale values.
 
 Now copy the values from the DAC `Offset` and `Scale` columns in the spreadsheet to the corresponding lines in the copied
-code block, replacing the defaults. For example the `offset` for the first output jack gets assigned to 
-`persistent_data_.channel_calibration_data[0].dac_offset`, and so on. I personally used 8 decimal places, which should be good
-enough precision.
+code block, replacing the defaults. For example, the `offset` and `scale` for the first output jack gets assigned like the
+following:
+
+```cpp
+persistent_data_.channel_calibration_data[0].dac_offset = 32688.0324252f;
+persistent_data_.channel_calibration_data[0].dac_scale = -32208.2337488f;
+```
+
+And so forth, for the rest of the outputs. Of course, replace the values in the example with your own. I personally used 8 
+decimal places, which should be good enough precision.
 
 
 ### ADC Calibration
@@ -180,7 +187,12 @@ and Crime module in it's References mode for this purpose.
 Apply +2V to each of the Time/Level inputs, and record the measurements again, for the ADC 2V column.
 
 Back to the `settings.cc` file, update each of the ADC values with the `scale` and `offset` from the spreadsheet, like
-we did earlier for DAC.
+we did earlier for DAC. For example:
+
+```cpp
+persistent_data_.channel_calibration_data[0].adc_offset = 0.04197841f;
+persistent_data_.channel_calibration_data[0].adc_scale = -0.99318016f;
+```
 
 Go to `factory_test.cc` again and disable the ADC calibration mode by switching the `#if 1` back to `#if 0`.
 
