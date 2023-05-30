@@ -51,7 +51,8 @@ the process clearer and remove some of the guesswork.
 
 On the Stages PCB, there is a place for a 4-pin header to the right of the STM32. This is the programming header, but 
 it isn't really mentioned in Mutable's parts list BOM. You'll need to solder a 4-pin header to this. I just cut some
-spare header to size. 
+spare header to size. I also trimmed the leads so that they'll be flush with the opposite side of the PCB, so it doesn't
+interfere with the placement of the sliders.
 
 With the PCB upright, from top-to-bottom, the pins are `RESET`, `SWCLK`, `SWDIO`, and `GND`.
 
