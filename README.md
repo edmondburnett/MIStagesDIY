@@ -25,7 +25,8 @@ the process clearer and remove some of the guesswork.
 
 - A (hopefully) successfully-built MI Stages board.
 - A precision multimeter, for calibration. Standard multimeters used for basic electrical or automotive work probably 
-  won't do; you really want something with at least a few decimal places for precision VDC readings.
+  won't do; you really want something with at least a few decimal places for precision VDC readings. I used a 
+  `Extech MultiMaster MM560A`.
 - Something that can output precision voltages. I used an Ornament and Crime (o_C) module in References mode. Other modules
   may be able to do the same, such as a precision adder, or Disting EX. Or use some proper bench test equipment.
 - A firmware programmer of some kind. I used the `STM32F051` Discovery board as recommended by Émilie. Some have used 
