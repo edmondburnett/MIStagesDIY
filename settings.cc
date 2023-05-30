@@ -60,8 +60,9 @@ bool Settings::Init() {
   fill(&state_.segment_configuration[0],
        &state_.segment_configuration[kNumChannels], 0);
 
-#if 0
-  // Defaults (DAC)
+// Defaults
+#if 1
+  // DAC
   persistent_data_.channel_calibration_data[0].dac_offset = 32768.0f;
   persistent_data_.channel_calibration_data[0].dac_scale = -32263.0f;
   persistent_data_.channel_calibration_data[1].dac_offset = 32768.0f;
@@ -75,7 +76,7 @@ bool Settings::Init() {
   persistent_data_.channel_calibration_data[5].dac_offset = 32768.0f;
   persistent_data_.channel_calibration_data[5].dac_scale = -32263.0f;
 
-  // Defaults (ADC)
+  // ADC
   persistent_data_.channel_calibration_data[0].adc_offset = 0.0f;
   persistent_data_.channel_calibration_data[0].adc_scale = -1.0f;
   persistent_data_.channel_calibration_data[1].adc_offset = 0.0f;
