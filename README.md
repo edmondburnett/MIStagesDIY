@@ -35,7 +35,7 @@ the process clearer and remove some of the guesswork.
 - Some jumper wires.
 - A eurorack power supply and cable.
 - A eurorack/mono 3.5mm cable.
-- A computer with a USB port. Mac, Linux, or Windows should all work, anything that can run Virtualbox+Vagrant.
+- A computer with a USB port. Linux, Mac, or Windows should all work; anything that can run Virtualbox+Vagrant.
 - Optionally: Something to view the Stages.brd file (supplied [here](https://github.com/pichenettes/eurorack/tree/master/stages/hardware_design/pcb)), 
   if needed for PCB troubleshooting. Autodesk Eagle, or Fusion 360 (it's new highly-bloated cloud subscription replacement, ew). 
   There may an open-source alternative, but as of this writing I couldn't actually get the .brd file to load or import in any of the ones I tried.
