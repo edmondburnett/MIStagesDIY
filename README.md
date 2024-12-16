@@ -9,9 +9,9 @@ While there is some minimal mention of the calibration process in the
 [official open-source docs](https://pichenettes.github.io/mutable-instruments-documentation/modules/stages/open_source/#calibration),
 the exact details of how to go about this are lacking. Thus the creation of this guide.
 
-Originally forked from `forestcaver/MIStagesStuff` (seems to be gone now) and updated with code fixes and
-improved/expanded instructions. The goal was to fill in the details from my own experience with building
-several of these, to make the process clearer and remove some of the guesswork.
+Originally forked from `forestcaver/MIStagesStuff` (which seems to have gone missing) and updated with code
+fixes and improved/expanded instructions. The goal was to fill in the details from my own experience with
+building several of these, to make the process clearer and remove some of the guesswork.
 
 ## Useful Links
 
