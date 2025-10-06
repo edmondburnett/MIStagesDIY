@@ -213,3 +213,8 @@ $ make -f stages/makefile upload
 ```
 
 All done! Power cycle the module, rack it up and test it's functions.
+
+## Mirrors
+
+- [Github](https://github.com/edmondburnett/MIStagesDIY)
+- [Codeberg](https://codeberg.org/edmondburnett/MIStagesDIY)
